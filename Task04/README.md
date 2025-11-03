@@ -53,15 +53,20 @@
    <img src="img/05.png" width="400"> <br>
 
 - `Allow in this Workspace` 를 선택하여 자동으로 진행되도록 할 수 있습니다. <br>
-  <img src="img/05-1.png" width="400"> <br>
+  <img width="236" height="655" alt="image" src="https://github.com/user-attachments/assets/a924a905-21a9-47ab-bf55-365c73dd6116" /> <br>
 
 - GitHub 저장소에서 생성된 Issue를 확인합니다. <br>
-   <img src="img/06.png" width="400"> <br>
+   <img width="751" height="362" alt="image" src="https://github.com/user-attachments/assets/58b3b2bb-465c-4e5f-bab0-e7335148699a" /> <br>
 
 
 ## Step 2: Agent 모드에서 프로젝트 생성하기 
 - Copilot Chat에서 `Agent` 모드를 선택하고, 아래와 같이 요청합니다. <br>
-  - `자, 이제 이 프로젝트의 구현을 시작하자. 현재 워크 스페이스에서 위에서 제시된 각 단계별로 구현을 진행해 줘. 단계별로 완료된 내용을 커밋하고, 커밋 메시지를 작성해 줘.` <br>
+	```
+		자, 이제 이 프로젝트의 구현을 시작하자.
+ 		현재 워크 스페이스에서 위에서 제시된 각 단계별로 구현을 진행해 줘.
+
+ 		단계별로 완료된 내용을 커밋하고, 커밋 메시지를 작성해 줘.
+	``` 
 
 - 위와 같이 요청하면, Copilot Chat이 Agent 모드로 자동으로 프로젝트를 구현합니다. <br>
 
