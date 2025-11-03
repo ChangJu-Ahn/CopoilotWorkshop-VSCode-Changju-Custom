@@ -35,6 +35,8 @@
 ## Step 1: Copilot에게 프로젝트 구성 절차 요청하기
 - Copilot Chat에서 `Plan` 모드를 선택합니다. <br>
   <img src="img/01-1.png" width="200"> <br>
+  <img width="233" height="112" alt="image" src="https://github.com/user-attachments/assets/d2dcd7f2-830c-439f-a809-ec6392e5693c" />   
+
 
 - Plan 모드에서 `이 프로젝트를 구현하기 위한 세부 절차를 단계별로 제안해 줘`라고 요청합니다. <br>
  <img src="img/01.png" width="400"> <br>
