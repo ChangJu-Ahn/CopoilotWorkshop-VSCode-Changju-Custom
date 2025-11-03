@@ -88,7 +88,12 @@
    - 다시 한번 `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
       <img src="img/15.png" alt="image" width="600"/><br>
 
-## 지식 확인:
+
+## 이번 핸즈온에서 기억해야 할 것은?
 - Code Completion 기능과, Copilot Chat 기능의 차이점
 - Vision 기능으로 가능한 다른 활용법
 - Copilot Chat의 `Review and Comment` 기능과 custom instruction을 활용하여, 원하는 형태로 리뷰를 받아 보는 방법
+
+## 다음은?
+- 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task03/README.md) - Task 3: Django 웹앱 만들기 (Part 1)
