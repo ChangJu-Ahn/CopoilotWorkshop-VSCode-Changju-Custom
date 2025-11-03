@@ -35,12 +35,12 @@
   - [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
   - [초보자를 위한 GitHub Copilot의 핵심기능소개](https://github.blog/ai-and-ml/github-copilot/github-for-beginners-essential-features-of-github-copilot/)
 
-## [Task 1](/Task01/README.md): 간단한 함수 및 테스트 코드 제안 받기 (코드완성)
+## [Task 1](/Task01/README.md): 간단한 함수 및 테스트 코드 제안 받기 (Code completion)
  - GitHub Copilot를 활용하여 간단한 함수와 테스트 코드를 제안받는 실습입니다. 이를 통해 기본적인 Copilot의 기능을 활용하는 방법을 익힙니다. 
  - GitHub Copilot Log를 확인하여, 오픈소스와 매치되는 코드인 경우 레퍼런스 정보를 확인합니다. 
  - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다. 
 
-## [Task 2](/Task02/README.md): 가위, 바위, 보 게임 만들기 (Copilot Chat사용)
+## [Task 2](/Task02/README.md): 가위, 바위, 보 게임 만들기 (Copilot Chat 사용)
  - GitHub Copilot과 함께 가위, 바위, 보 게임을 만들어 봅니다.
  - Copilot을 통해 테스트 코드를 작성해 봅니다.
  - Copilot chat의 각종 메뉴들을 사용해 봅니다.
