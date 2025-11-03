@@ -184,7 +184,7 @@
 
 
 ## (선택사항) Step 7: GitHub MCP Server 설정하기
-- MCP Server에 대한 설명은 [Task 8](../Task08/README.md)에서 자세히 다룹니다.
+- MCP Server에 대한 설명은 [Task 7](../Task07/README.md)에서 자세히 다룹니다.
 - 현재 Task에서는 GitHub MCP Server를 설정하여, 다음 Task04에서 실제 프로젝트를 구성할 때, Copilot Chat에서 GitHub MCP Server를 이용해, GitHub 저장소에 Issue를 등록할 수 있도록 합니다. <br>
 - GitHub MCP Server(https://github.com/github/github-mcp-server) 는 GitHub에서 제공하는 공식 MCP 서버로, GitHub.com의 각종 다양한 기능을 제공합니다. <br>
 - GitHub MCP Server를 추가하기 위해 위 링크의 저장소에서 'Remote GitHub MCP Server'하단에 `VS Code: Install Server` 버튼을 클릭합니다. <br>
@@ -201,7 +201,13 @@
 ## Step 8: 저장
 - Ctrl + Shift + P를 눌러 명령어 팔레트를 열고, `File: Save All Files`를 선택합니다. <br>
 
-## 지식 확인
-- 이번 Task에서는 Django 프로젝트를 시작하기 위해, 
-  - Copilot의 Custom instructions를 생성하고, 
-  - 커스텀 Chat mode를 설정하고,  Remote GitHub 저장소와, GitHub MCP server를 설정하여 Django 웹앱을 만들기 위한 준비를 마쳤습니다. 
+## 이번 핸즈온에서 기억해야 할 것은?
+- 이번 Task에서는 Django 프로젝트를 시작하기 위해
+	1) Copilot의 Custom instructions를 생성하고, 
+	2) 커스텀 Chat mode를 설정하고
+	3) Remote GitHub 저장소와, GitHub MCP server를 설정하여 Django 웹앱을 만들기 위한 준비를 마쳤습니다.
+
+## 다음은?
+- 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 이전 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task02/README.md) - Task 2: 가위, 바위, 보 게임 만들기 (Copilot Chat 사용)
+- 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task04/README.md) - Task 4: Django 웹앱 만들기 (Part 2)
