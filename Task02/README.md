@@ -96,4 +96,5 @@
 
 ## 다음은?
 - 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 이전 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task01/README.md)
 - 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task03/README.md) - Task 3: Django 웹앱 만들기 (Part 1)
