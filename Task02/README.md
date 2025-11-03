@@ -44,33 +44,24 @@
    <img width="1808" height="994" alt="image" src="https://github.com/user-attachments/assets/22c13261-a4cb-4f55-8519-d9ea12b8fb20" />
 
 
-
-
-
 ## Step 2 : Lizard, Spock 추가하기
-- 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
-   <img src="img/image.png" width="600"><br>
-- `choices` 리스트에 Lizard와 Spock을 추가합니다.<br>
-    <img src="img/03.png" alt="image" width="400"/><br>
+- 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.
+- Copilot Chat에 아래 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.
+    <img src="img/image.png" width="600">   
+    <img src="img/04.png" alt="image" width="400"/>    
+    <img src="img/05.png" alt="image" width="400"/>
+  
+- Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.   
+    <img src="img/06.png" alt="image" width="300"/>
 
-- Copilot Chat에 위 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.<br>
-    <img src="img/04.png" alt="image" width="400"/><br>
-    <img src="img/05.png" alt="image" width="400"/><br>
+- Copilot Chat에 `첨부된 이미지의 프로세스도 추가해 줄 수 있어?` 라고 요청합니다.  
+  <img width="723" height="179" alt="image" src="https://github.com/user-attachments/assets/432e9297-abef-4cc6-8ebf-2b6e19a01d5a" />
+  
+- Copilot Chat에서 제안된 코드를 확인하고, 다음과 같이 코드를 적용합니다.
+  <img width="756" height="897" alt="image" src="https://github.com/user-attachments/assets/7996a1de-42a7-49c1-b0e8-3704305a3638" />
 
-- Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.<br>
-    <img src="img/06.png" alt="image" width="300"/><br>
-
-- Copilot Chat에 `그림파일데로 Lizard, Spock을 추가해 주세요` 라고 요청합니다.<br>
-    <img src="img/07.png" alt="image" width="300"/><br>
-
-- Copilot Chat에서 제안된 코드를 확인합니다.<br>
-    <img src="img/08.png" alt="image" width="500"/><br>
-
-- Copilot Chat에서 `Apply to file` 버튼을 클릭하여, 제안된 코드를 적용합니다.<br>
-    <img src="img/09.png" alt="image" width="300"/><br>
-
-- 필요시 미진한 코드를 추가하고 실행해 봅니다.<br>
-    <img src="img/10.png" alt="image" width="400"/><br>
+- 그리고 다시한번 테스트를 해 봅니다.   
+    <img width="476" height="455" alt="image" src="https://github.com/user-attachments/assets/d27bc013-e520-471d-ae9b-c5b509d6b49e" />
 
 ## Step 3: Review and Comment 사용해 보기
 - 마우스 오른 버튼을 클릭하여, `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
