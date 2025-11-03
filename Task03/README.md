@@ -172,7 +172,7 @@
 - VS Code의 설정 메뉴에서 파일 위치를 추가할 수 있습니다. <br>
   <img src="img/41.png" width="400"> <br>
 
-- 실습 디렉토리에 [plan.chatmode.md](.github/plan.chatmode.md) 파일의 내용을 참조하여 plan 모드를 생성합니다. <br>
+- 실습 디렉토리에 [plan.chatmode.md](.github/chatmodes/plan.chatmode.md) 파일의 내용을 참조하여 plan 모드를 생성합니다. <br>
 
 
 ## (선택사항) Step 6: GitHub 저장소와 연동하기
