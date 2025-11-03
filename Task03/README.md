@@ -16,13 +16,17 @@
  <img src="img/01.png" width="400"> <br>
 
 ## Step 2: Custom instructions 생성
- - [Custom instructions 설명](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?versionId=enterprise-cloud%40latest&tool=jetbrains#about-repository-custom-instructions-for-github-copilot-chat)
- - 팀의 작업 방식, 사용하는 도구, 프로젝트의 세부 사항에 대한 충분한 컨텍스트를 제공하면 GitHub Copilot은 이에 맞춘 챗 응답을 생성할 수 있습니다. 이러한 컨텍스트 정보를 매번 챗 질문에 반복해서 추가하는 대신, 저장소에 파일을 생성하여 자동으로 이 정보를 추가할 수 있습니다. 추가된 정보는 챗에 표시되지는 않지만, Copilot이 더 높은 품질의 응답을 생성하는 데 활용됩니다.
+### [Custom instructions 정의](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?versionId=enterprise-cloud%40latest&tool=jetbrains#about-repository-custom-instructions-for-github-copilot-chat)
 
- - **[Custom instructions란](https://code.visualstudio.com/docs/copilot/copilot-customization)** 
-    - 일반적인 가이드라인이나 규칙을 정의하여 코드 생성, 코드 리뷰 수행, 또는 커밋 메시지 생성과 같은 작업을 수행합니다. Custom instructions는 AI가 작업을 수행해야 하는 조건(작업이 어떻게 수행되어야 하는지)을 설명합니다.
-    - Custom instructions는 다양한 형태로 작성할 수 있습니다. <br>
-	- VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 아래 표는 Custom instructions를 작성할 수 있는 방법을 정리한 것입니다. <br>
+- 팀의 작업 방식, 사용하는 도구, 프로젝트의 세부 사항에 대한 충분한 컨텍스트를 제공하면 GitHub Copilot은 이에 맞춘 챗 응답을 생성할 수 있습니다.
+- 이러한 컨텍스트 정보를 매번 챗 질문에 반복해서 추가하는 대신, 저장소에 파일을 생성하여 자동으로 이 정보를 추가할 수 있습니다.
+- 추가된 정보는 챗에 표시되지는 않지만, Copilot이 더 높은 품질의 응답을 생성하는 데 활용됩니다.
+
+ ### [Custom instructions 설명](https://code.visualstudio.com/docs/copilot/copilot-customization)
+- 일반적인 가이드라인이나 규칙을 정의하여 코드 생성, 코드 리뷰 수행, 또는 커밋 메시지 생성과 같은 작업을 수행합니다.
+- Custom instructions는 AI가 작업을 수행해야 하는 조건(작업이 어떻게 수행되어야 하는지)을 설명합니다.
+- Custom instructions는 다양한 형태로 작성할 수 있습니다.
+- VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 아래 표는 Custom instructions를 작성할 수 있는 방법을 정리한 것입니다. <br>
 
     | Custom instructions 유형 | 설명 |
 	|-|-|
@@ -31,13 +35,12 @@
 	| VS Code `settings.json` 설정 | - VS Code 사용자 또는 워크스페이스 설정에서 지침을 지정합니다.<br>- 설정 값 또는 하나 이상의 파일에서 지침을 정의합니다.<br>- VS Code에서 지원됩니다.<br>- 코드 생성, 테스트 생성, 커밋 메시지, 코드 리뷰, PR 제목 및 설명에 대한 지침을 지원합니다.<br>- 코드 생성 외의 작업에 대한 지침을 정의하려면 이 옵션을 사용합니다. |
 
     
-	### 2-1. `.github/copilot-instructions.md` 파일 생성
-	  - Copilot은 `.github/copilot-instructions.md` 파일을 사용하여, 코드 생성 지침을 Markdown 형식으로 작성합니다. 
-	  - 이 파일은 모든 챗 요청에 자동으로 포함되며, Copilot을 지원하는 모든 에디터와 IDE에서 지원됩니다.
-	  - 이 파일을 사용하여 모든 코드 생성 작업에 적용되는 일반적인 코딩 관행, 선호 기술, 프로젝트 요구 사항을 정의합니다.
-	  - 예시로 제공된 파일을 참고하여, 프로젝트에 맞는 지침을 작성합니다.
-      - [copilot-instructions예](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?tool=vscode#repository-custom-instructions-example) <br>
-
+#### 2-1. `.github/copilot-instructions.md` 파일 생성
+- Copilot은 `.github/copilot-instructions.md` 파일을 사용하여, 코드 생성 지침을 Markdown 형식으로 작성합니다. 
+- 이 파일은 모든 챗 요청에 자동으로 포함되며, Copilot을 지원하는 모든 에디터와 IDE에서 지원됩니다.
+- 이 파일을 사용하여 모든 코드 생성 작업에 적용되는 일반적인 코딩 관행, 선호 기술, 프로젝트 요구 사항을 정의합니다.
+- 예시로 제공된 파일을 참고하여, 프로젝트에 맞는 지침을 작성합니다.
+- [copilot-instructions 예시](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?tool=vscode#repository-custom-instructions-example) <br>
 
 	````markdown
 	# Project Overview
@@ -69,56 +72,41 @@
 	- Application should have a modern and clean design.
 	````
 
-	- <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
-		<img src="img/30.png" width="600"> <br>
-		<img src="img/31.png" width="800"><br>
+- <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
+	<img src="img/30.png" width="600"> <br>
+	<img src="img/31.png" width="800"><br>
 
-	### 2-2. `.instructions.md` 파일 생성
-      - 특정 작업에 대한 사용자 정의 지침을 저장하기 위해 하나 이상의 `.instructions.md` 파일을 생성할 수 있습니다. 예를 들어, 다양한 프로그래밍 언어, 프레임워크 또는 프로젝트 유형에 대한 지침 파일을 생성할 수 있습니다. VS Code는 모든 채팅 요청에 지침 파일을 자동으로 추가하거나, 특정 파일에 대해 지침이 자동으로 적용되도록 지정할 수 있습니다. 또는 채팅 프롬프트에 지침 파일을 수동으로 첨부할 수도 있습니다.
-	  - Workspace 또는 User 프로필에 하나 이상의 지침 파일을 생성하여 사용할 수 있습니다.
-	  
-	    - 워크스페이스 지침 파일: 워크스페이스 내에서만 사용할 수 있으며, 워크스페이스의 .github/instructions 폴더에 저장됩니다.
-		- User 프로필 지침 파일: 여러 워크스페이스에서 사용할 수 있으며, 현재 VS Code 프로필에 저장됩니다.
-	
-	  - Instructions 파일 구조
-	    - 헤더 (선택사항)
-		  - description: 지침 파일에 대한 설명을 작성합니다. Chat view에서 마우스를 올리면 이 내용이 표시됩니다.
-		  - applyTo: 지침 파일이 적용되는 파일을 지정합니다. glob 패턴을 사용하여 특정 파일에만 적용할 수 있습니다.
-		  - 예시: 
-		    ```markdown
-		    # My Custom Instructions
-		    description: This file contains custom instructions for my project.
-		    applyTo: '**/*.py'
-		    ```		
+#### 2-2. `.instructions.md` 파일 생성
+- 특정 작업에 대한 사용자 정의 지침을 저장하기 위해 하나 이상의 `.instructions.md` 파일을 생성할 수 있습니다.
+- 예를 들어, 다양한 프로그래밍 언어, 프레임워크 또는 프로젝트 유형에 대한 지침 파일을 생성할 수 있습니다.
+- VS Code는 모든 채팅 요청에 지침 파일을 자동으로 추가하거나, 특정 파일에 대해 지침이 자동으로 적용되도록 지정할 수 있습니다. 또는 채팅 프롬프트에 지침 파일을 수동으로 첨부할 수도 있습니다.
+  
+- Workspace 또는 User 프로필에 하나 이상의 지침 파일을 생성하여 사용할 수 있습니다.
+	- 워크스페이스 지침 파일: 워크스페이스 내에서만 사용할 수 있으며, 워크스페이스의 .github/instructions 폴더에 저장됩니다.
+	- User 프로필 지침 파일: 여러 워크스페이스에서 사용할 수 있으며, 현재 VS Code 프로필에 저장됩니다.
+	- Repository-wide, path-spcific Instuction을 조합하면 다음과 같은 구조가 나옵니다.   
+   		<img width="226" height="203" alt="image" src="https://github.com/user-attachments/assets/1ea8ace3-acea-4194-8414-4f173af44292" />   
 
-	    - Body
-		  - 마크 다운 형식의 자연어로 작성합니다. Heading, Lists, Code blocks 등을 사용하여 지침을 작성합니다.
-		  - 다른 instructions 파일을 링크로 참조할 수 있습니다. 
-
-	    - [instructions 파일 예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions-examples) <br>	  
-
+- Instructions 파일 구조
+	- 헤더 (선택사항)
+		- description: 지침 파일에 대한 설명을 작성합니다. Chat view에서 마우스를 올리면 이 내용이 표시됩니다.    
+		- applyTo: 지침 파일이 적용되는 파일을 지정합니다. glob 패턴을 사용하여 특정 파일에만 적용할 수 있습니다.   
+		- 예시: 
+			```markdown
+			# My Custom Instructions
+			description: This file contains custom instructions for my project.
+			applyTo: '**/*.py'
+			```		
+	- Body
+		- 마크 다운 형식의 자연어로 작성합니다. Heading, Lists, Code blocks 등을 사용하여 지침을 작성합니다.    
+		- 다른 instructions 파일을 링크로 참조할 수 있습니다. [instructions 파일 예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions-examples)       
 		- Default로 .github/instructions 디렉토리를 사용하고, VS Code의 설정 메뉴에서 사용자가 원하는 디렉토리를 추가 지정할 수 있습니다. <br>
-		  <img src="img/32.png" width="600"> <br>
-
-	### 2-3. VS Code 설정 : settings.json
-	  - "text", 혹은 "file"을 지정할 수 있습니다. 
-
-	  - ** 이전 VS Code의 설정에서 `codeGeneration`과 `testGeneration` 설정을 VS Code 1.102 버전부터 deprecated 되었습니다. 
-
-	 	| Instruction 유형                | 설정 이름                                           |
-		|---------------------------------|----------------------------------------------------|
-		| 코드 리뷰                       | `github.copilot.chat.reviewSelection.instructions` |
-		| 커밋 메시지 생성                | `github.copilot.chat.commitMessageGeneration.instructions` |
-		| 풀 리퀘스트 제목 및 설명 생성   | `github.copilot.chat.pullRequestDescriptionGeneration.instructions` |
-		| 코드 생성 (Deprecated)          | `github.copilot.chat.codeGeneration.instructions` |
-		| 테스트 생성 (Deprecated)        | `github.copilot.chat.testGeneration.instructions` |
-
-	  - [설정예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_specify-custom-instructions-in-settings) <br>
+			<img src="img/32.png" width="600"> <br>
 
 
 ## Step 3: Custom instructions 작성법 및 권고 
 - 프로젝트의 목적, 기능에 대한 상위 수준의 정의
-- 기술 스택, 사용되는 (선호하는) 라이브러리와 프레임 워크 and frameworks
+- 기술 스택, 사용되는 (선호하는) 라이브러리와 프레임워크
 - 프로젝트 구조 및 파일 구성
 - 코드 스타일 및 컨벤션
 - 주석 및 문서화 스타일
@@ -127,20 +115,13 @@
 - 보안 및 성능 고려 사항
 
 ### 3-1. Custom instructions 생성에 대한 팁
-- [설명링크](https://code.visualstudio.com/docs/copilot/copilot-customization#_tips-for-defining-custom-instructions)
-
+- 설명 링크는 다음을 참고하세요 : [Customize chat to your workflow](https://code.visualstudio.com/docs/copilot/copilot-customization#_tips-for-defining-custom-instructions)
 - 지침은 간결하고 독립적으로 작성하세요. 각 지침은 하나의 간단한 문장이어야 합니다. 여러 정보를 제공해야 하는 경우, 여러 개의 지침으로 나누어 작성하세요.
-
 - 지침에서 특정 코딩 표준과 같은 외부 리소스를 참조하지 마세요.
-
 - 지침을 여러 파일로 분리하세요. 이 방법은 주제나 작업 유형별로 지침을 정리하는 데 유용합니다.
-
 - 지침 파일에 지침을 저장하여 팀이나 프로젝트 간에 쉽게 공유할 수 있도록 하세요. 또한 파일을 버전 관리하여 시간 경과에 따른 변경 사항을 추적할 수 있습니다.
-
 - 지침 파일 헤더의 `applyTo` 속성을 사용하여 특정 파일이나 폴더에 지침을 자동으로 적용하세요.
-
 - 프롬프트 파일에서 사용자 정의 지침을 참조하여 프롬프트를 깔끔하고 집중되게 유지하고, 다른 작업에 대해 지침을 중복 작성하지 않도록 하세요.
-
 
 ## Step 4: Custom instructions 파일 생성, 수정하기 
 - Custom instructions를 생성하기 위해, Copilot Chat창의 우측 상단에 톱니 바퀴 아이콘을 클릭하여 설정 메뉴를 엽니다. <br>
