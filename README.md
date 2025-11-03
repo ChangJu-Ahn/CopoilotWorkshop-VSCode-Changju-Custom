@@ -1,3 +1,8 @@
+이 핸즈온 리포는 마이크로소프트 손건 GBB님의 리포를 커스터마이징했습니다.
+원본 리포는 [여기](https://github.com/Kor-GHCPWorkshop/CopoilotWorkshop-VSCode-Py-HDA)를 참고하여 주세요.
+
+---
+
 # GitHub Copilot Workshop
 안녕하세요. GitHub Copilot Workshop 리포지토리 입니다. 
 이 Repository는 여러개의 다른 실습 과제들을 담고 있으며, GitHub Copilot의 기본적인 코드를 제안받는 사용법 부터 추가적인 다른 워크플로우에 이용할 수 있는 방법까지 핸즈온 경험을 기반으로 한 워크샾 내용을 담고 있습니다. 
