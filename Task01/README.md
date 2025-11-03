@@ -104,7 +104,7 @@
 - (기업 관리자)각종 에러로그, 화면 캡쳐 등을 첨부하여 GitHub 글로벌 Support에 기술지원 요청/문의할 수 있습니다. <br>
   - [GitHub Support](https://support.github.com)
 
-## 지식 확인
+## 이번 핸즈온에서 기억해야 할 것은?
 - GitHub Copilot의 코드 완성 기능
 - 코드완성 기능의 모델 선택
 - GitHub Copilot의 코드 완성 기능의 컨텍스트
