@@ -111,6 +111,6 @@
 - VS Code의 Copilot 설정 메뉴
 
 ## 다음은?
-- 처음으로 돌아가려면? https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom
-- 다음 실습은? https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task02/README.md
+- 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task02/README.md) - Task 2: 가위, 바위, 보 게임 만들기 (Copilot Chat사용)
 
