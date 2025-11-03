@@ -1,4 +1,4 @@
-# Task 2: 가위, 바위, 보 게임 만들기 (Copilot Chat사용)
+# Task 2: 가위, 바위, 보 게임 만들기 (Copilot Chat 사용)
 
 ## Use case: 
 - GitHub Copilot를 활용하여 가위, 바위, 보 게임을 만들고, 기본 게임에 추가적인 게임 로직을 추가하는 실습을 통해, Copilot의 활용도를 높입니다.
@@ -66,23 +66,29 @@
 ## Step 3: Review and Comment 사용해 보기
 - 마우스 오른 버튼을 클릭하여, `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
     <img src="img/11.png" alt="image" width="500"/><br>
-
     <img src="img/12.png" alt="image" width="600"/><br>
 
 - 아래 절차데로 `Review and Comment`에 대한 `Custom instructions`을 설정해 봅니다.<br>
   - Ctrl + Shift + P를 눌러서 명령 팔레트를 엽니다.<br>
   - `Workspace settings(JSON)`을 선택합니다.<br>
-    <img src="img/13.png" alt="image" width="400"/><br>
+      <img src="img/13.png" alt="image" width="400"/><br>
 
-  - JSON 파일에 아래와 옵션을 추가하고 아래 예제와 같이 입력합니다.<br>
-    - `"github.copilot.chat.reviewSelection.instructions"`<br>
-    <img src="img/14.png" alt="image" width="400"/><br>
-    - ` "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다. 클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다. 들여쓰기는 스페이스 2개로 한다."`<br>
+  - JSON 파일에 아래와 옵션을 추가하고 아래 예제와 같이 입력합니다.   
+      ```
+        "github.copilot.chat.reviewSelection.instructions": [
+          "text": "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다. 클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다. 들여쓰기는 스페이스 2개로 한다."
+        ]
+      ```
+
+      <img width="602" height="173" alt="image" src="https://github.com/user-attachments/assets/9f2734a7-688b-48c3-9c04-c4be0044bc53" />   
+
+  - 아까 만든 함수이름에 '_'이 이미 있다면, 테스트를 위해 다음과 같이 지워줍니다.   
+    <img width="449" height="241" alt="image" src="https://github.com/user-attachments/assets/965a3890-c366-4e81-9e8e-d81aceec7c63" />
 
    - 다시 한번 `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
-    <img src="img/15.png" alt="image" width="600"/><br>
+      <img src="img/15.png" alt="image" width="600"/><br>
 
 ## 지식 확인:
-- 코드 완성 기능과, Copilot Chat 기능의 차이점
+- Code Completion 기능과, Copilot Chat 기능의 차이점
 - Vision 기능으로 가능한 다른 활용법
 - Copilot Chat의 `Review and Comment` 기능과 custom instruction을 활용하여, 원하는 형태로 리뷰를 받아 보는 방법
