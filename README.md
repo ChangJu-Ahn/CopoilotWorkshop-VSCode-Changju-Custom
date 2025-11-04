@@ -10,8 +10,6 @@
 - [데모 앱 제작을 AI Agent, 깃헙 코파일럿과 함께! :)](https://www.youtube.com/watch?v=1r3aB01889Y)
 - [Microsoft Agent Framework & Azure AI Agent Service 기반의 AI 멀티 에이전트 데모](https://www.youtube.com/watch?v=vIgONDomgQU)
 
-<br/>
-
 ---
 
 # GitHub Copilot Workshop
