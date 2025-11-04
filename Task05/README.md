@@ -13,7 +13,8 @@
 - Commit message 자동 생성 기능을 사용해 보고, Custom instruction을 제공하여, 원하는 형태로 commit message를 제안받아 봅니다.
 
 ## Step 1: GitHub Copilot Chat에서 지원하는 프롬프트 유형
-GitHub Copilot Chat은 다양한 코딩 관련 프롬프트를 처리하여 대화형 코딩 도우미로서의 다재다능함을 보여줍니다. 다음은 몇 가지 일반적인 입력 형식입니다.
+GitHub Copilot Chat은 다양한 코딩 관련 프롬프트를 처리하여 대화형 코딩 도우미로서의 다재다능함을 보여줍니다.    
+다음은 몇 가지 일반적인 입력 형식입니다.
 
 - 직접 질문: 
   - 코딩 개념, 라이브러리 또는 문제 해결에 대한 구체적인 질문을 할 수 있습니다. 
@@ -38,31 +39,39 @@ GitHub Copilot Chat은 다양한 코딩 관련 프롬프트를 처리하여 대�
   - 원하는 결과를 명확하게 설명합니다. 
 
 - Copilot에게 컨텍스트 제공  
-  - Copilot은 여러분이 무엇을 하고 있는지, 어떤 도움을 원하는지 충분한 컨텍스트가 있을 때 가장 잘 작동합니다. 특정 프로그래밍 작업에 대해 동료에게 도움을 요청할 때 컨텍스트를 제공하는 것처럼, Copilot에게도 동일하게 컨텍스트를 제공할 수 있습니다.
+  - Copilot은 여러분이 무엇을 하고 있는지, 어떤 도움을 원하는지 충분한 컨텍스트가 있을 때 가장 잘 작동합니다.
+  - 특정 프로그래밍 작업에 대해 동료에게 도움을 요청할 때 컨텍스트를 제공하는 것처럼, Copilot에게도 동일하게 컨텍스트를 제공할 수 있습니다.
 
 - 파일 열기  
-  - 코드 자동완성을 위해 Copilot은 현재 편집 중인 파일과 에디터에 열린 파일들을 분석하여 컨텍스트를 파악하고 적절한 제안을 생성합니다. VS Code에서 관련 파일들을 열어두면 Copilot이 프로젝트의 더 넓은 맥락을 이해하는 데 도움이 됩니다.
+  - 코드 자동완성을 위해 Copilot은 현재 편집 중인 파일과 에디터에 열린 파일들을 분석하여 컨텍스트를 파악하고 적절한 제안을 생성합니다.
+  - VS Code에서 관련 파일들을 열어두면 Copilot이 프로젝트의 더 넓은 맥락을 이해하는 데 도움이 됩니다.
 
 - 최상위 주석  
   - 동료에게 간단하고 높은 수준의 소개를 제공하는 것처럼, 작업 중인 파일에 최상위 주석을 추가하면 Copilot이 여러분이 만드는 코드의 전체적인 맥락을 이해하는 데 도움이 됩니다.
 
 - 적절한 include 및 참조  
-  - 작업에 필요한 include나 모듈 참조는 직접 설정하는 것이 가장 좋습니다. Copilot이 제안을 할 수 있지만, 어떤 의존성이 필요한지 여러분이 더 잘 알고 있을 것입니다. 또한 Copilot에게 어떤 프레임워크, 라이브러리, 버전을 사용하고 싶은지 알려주는 데 도움이 됩니다.
+  - 작업에 필요한 include나 모듈 참조는 직접 설정하는 것이 가장 좋습니다. Copilot이 제안을 할 수 있지만, 어떤 의존성이 필요한지 여러분이 더 잘 알고 있을 것입니다.
+  - 또한 Copilot에게 어떤 프레임워크, 라이브러리, 버전을 사용하고 싶은지 알려주는 데 도움이 됩니다.
 
 - 의미 있는 함수/변수 이름  
-  - fetchData()와 같은 메서드는 동료에게 큰 의미가 없듯이, Copilot에게도 도움이 되지 않습니다. 의도를 명확하기 보여주기 위한 의미 있는 이름을 사용하면 Copilot이 원하는 동작을 하는 본문을 제안하는 데 도움이 됩니다.
+  - fetchData()와 같은 메서드는 동료에게 큰 의미가 없듯이, Copilot에게도 도움이 되지 않습니다.
+  - 의도를 명확하기 보여주기 위한 의미 있는 이름을 사용하면 Copilot이 원하는 동작을 하는 본문을 제안하는 데 도움이 됩니다.
 
 - 구체적이고 범위가 명확한 함수 주석  
   - 함수 이름만으로는 지나치게 길어지지 않는 한 충분히 설명할 수 없습니다. 함수 주석은 Copilot이 알아야 할 세부 정보를 채워주는 데 도움이 됩니다.
 
 - 샘플 코드로 Copilot에 힌트 주기  
-  - Copilot이 올바른 방향으로 제안하도록 하려면, 원하는 결과와 유사한 샘플 코드를 에디터에 복사해 붙여넣는 것이 한 가지 방법입니다. 작은 예시를 제공하면 Copilot이 원하는 언어와 작업에 맞는 제안을 생성하는 데 도움이 됩니다. Copilot이 실제로 사용할 수 있는 코드를 제공하기 시작하면, 샘플 코드는 파일에서 삭제해도 됩니다. 특히 Copilot이 이전 버전의 코드를 제안할 때, 최신 라이브러리 버전으로 점프 스타트하는 데 유용합니다.
+  - Copilot이 올바른 방향으로 제안하도록 하려면, 원하는 결과와 유사한 샘플 코드를 에디터에 복사해 붙여넣는 것이 한 가지 방법입니다.
+  - 작은 예시를 제공하면 Copilot이 원하는 언어와 작업에 맞는 제안을 생성하는 데 도움이 됩니다.
+  - Copilot이 실제로 사용할 수 있는 코드를 제공하기 시작하면, 샘플 코드는 파일에서 삭제해도 됩니다. 특히 Copilot이 이전 버전의 코드를 제안할 때, 최신 라이브러리 버전으로 점프 스타트하는 데 유용합니다.
 
 - Copilot은 확률에 기반(probabilistic)하여 작동합니다. 
-  - Copilot은 확률에 기반하여 작동하므로, Copilot이 제안하는 코드가 항상 정확하거나 최적의 솔루션이 아닐 수 있습니다. Copilot이 생성한 코드를 검토하고, 필요에 따라 수정하는 것이 중요합니다. Copilot은 여러분의 코딩 스타일과 선호도를 학습할 수 있지만, 항상 완벽하지는 않습니다.
+  - Copilot은 확률에 기반하여 작동하므로, Copilot이 제안하는 코드가 항상 정확하거나 최적의 솔루션이 아닐 수 있습니다.
+  - Copilot이 생성한 코드를 검토하고, 필요에 따라 수정하는 것이 중요합니다. Copilot은 여러분의 코딩 스타일과 선호도를 학습할 수 있지만, 항상 완벽하지는 않습니다.
 
 ## Step 3: Copilot Chat의 Chat participants
-- [Chat participant](https://code.visualstudio.com/api/extension-guides/ai/chat)(채팅 참가자)는 사용자가 VS Code에서 도메인별 전문가와 함께 채팅을 확장할 수 있도록 해주는 특화된 어시스턴트입니다. 사용자는 `@멘션`을 통해 채팅 참가자를 호출하며, 해당 참가자가 사용자의 자연어 프롬프트를 처리하는 역할을 담당합니다.
+- [Chat participant](https://code.visualstudio.com/api/extension-guides/ai/chat)(채팅 참가자)는 사용자가 VS Code에서 도메인별 전문가와 함께 채팅을 확장할 수 있도록 해주는 특화된 어시스턴트입니다.
+- 사용자는 `@멘션`을 통해 채팅 참가자를 호출하며, 해당 참가자가 사용자의 자연어 프롬프트를 처리하는 역할을 담당합니다.
 
 - VS Code에는 `@vscode`, `@terminal`, `@workspace`와 같은 여러 내장된 채팅 참가자가 있습니다. 이들은 각자의 도메인에 대한 질문에 최적화되어 있습니다.
 
@@ -232,5 +241,18 @@ GitHub Copilot Chat은 다양한 코딩 관련 프롬프트를 처리하여 대�
 - [프롬프트엔지니어링과 LMM에 대한 개발자 가이드](https://github.blog/ai-and-ml/generative-ai/prompt-engineering-guide-generative-ai-llms/)
 - [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
 - [GitHub Copilot에게 더 좋은 프롬프트를 작성하기 위한 예제와 모범사례](https://github.blog/developer-skills/github/how-to-write-better-prompts-for-github-copilot/)
-
 - [GitHub Copilot을 활용한 Unit test생성 사용예](https://github.blog/ai-and-ml/github-copilot/how-to-generate-unit-tests-with-github-copilot-tips-and-examples/)
+
+
+## 이번 핸즈온에서 기억해야 할 것은?
+- Copilot에게 **명확하고 구체적인 프롬프트**를 작성하고, 필요한 **컨텍스트를 충분히 제공**해야 정확도가 올라간다.
+- Copilot Chat에서 **Chat participant(@workspace, @vscode 등)**를 적절히 사용하면 더 풍부한 코드·도메인 컨텍스트 기반 답변을 얻을 수 있다.
+- **슬래시 명령(/)** 와 **Chat variables(#changes, #githubRepo 등)** 을 활용하면 작업 의도를 명확히 전달하고 자동화된 결과 생성이 가능하다.
+- 반복되는 작업은 **프롬프트 파일(.prompt.md)** 로 만들어 **재사용**할 수 있으며, 테스트 코드 생성, 보안 점검 등 워크플로에 적용할 수 있다.
+- Custom instruction을 통해 **커밋 메시지 자동 생성** 시 원하는 형식으로 제안받을 수 있다.
+
+
+## 다음은?
+- 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 이전 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task04/README.md) - Task 4: Django 웹앱 만들기 (Part 2)
+- 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task06/README.md) - Task 6: 코드 리팩토링, 보안 문제 확인
