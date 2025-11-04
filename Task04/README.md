@@ -161,7 +161,14 @@
   <img src="img/34.png" width="400"> <br>
   <img src="img/35.png" width="400"> <br>
 
+- 연동된 이메일로 Coding Agent가 작업을 시작했다는 안내 메시지가 발송됩니다.   
+  <img width="501" height="422" alt="image" src="https://github.com/user-attachments/assets/58d04fe8-ec6b-4dca-9ca9-b8b9d9130f9c" />
+
 - GitHub.com 저장소에 Draft PR이 생성되며, 자동으로 Copilot(Coding Agent)이 기능을 구현하고 있는 것을 확인합니다. <br>
+- 그리고 Copilot이 담당자로 할당됨을 확인할 수 있습니다.
+  <img width="1273" height="649" alt="image" src="https://github.com/user-attachments/assets/edee9d23-4840-4a5d-89fb-cf74fe25780e" />
+  <img width="821" height="488" alt="image" src="https://github.com/user-attachments/assets/7ff0d9fc-dfd5-4ba7-9308-00ef58f55b7f" />
+
   <img src="img/36.png" width="600"> <br>
   <img src="img/37.png" width="600"> <br>
 
@@ -199,9 +206,17 @@
 - PR Merge 후, main branch를 개발 랩탑에 clone하고, 서버를 다시 실행하여 추가된 범주 기능이 정상적으로 동작하는지 확인합니다. <br>
   <img src="img/51.png" width="600"> <br>
 
-## 지식 확인
+- 마찬가지로, 각 범주 별로 색상도 다르게 나타낼 수 있도록 요구사항이 적용됨을 확인합니다.    
+  <img width="1037" height="536" alt="image" src="https://github.com/user-attachments/assets/e41185c6-fe2f-44b8-a84b-5e599a835148" />
+
+
+## 이번 핸즈온에서 기억해야 할 것은?
 - Standard Model과 Premium Model의 차이, Premium 모델 사용시 기본 제공되는 사용량 
 - (선택사항) GitHub MCP Server를 활용해 Copilot Chat에서 GitHub 저장소에 Issue를 등록하는 방법
 - (선택사항) Coding Agent를 활용해 기능을 구현하는 방법 
 - (선택사항) Copilot을 통해 자동 코드 리뷰를 받는 방법
 
+## 다음은?
+- 처음으로 돌아가려면? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom)
+- 이전 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task03/README.md) - Task 3: Django 웹앱 만들기 (Part 1)
+- 다음 실습은? [여기로 이동하세요](https://github.com/ChangJu-Ahn/CopoilotWorkshop-VSCode-Changju-Custom/blob/main/Task05/README.md) - Task 5: 프롬프트와 컨텍스트 사용
