@@ -146,7 +146,8 @@
 - GitHub.com이 활용 가능한 경우, Copilot Chat에서 아래의 요청을 통해 Coding Agent를 활용해 기능을 추가해 봅니다. 
 - VS Code에서 GitHub Pull Requests 확장 프로그램을 설치합니다. <br>
 
-- Copilot Chat에서 `Ask` 모드를 선택하고, 아래와 같이 요청합니다. <br>
+-  Copilot Chat에서 `Ask` 혹은 `Agent` 모드를 선택하고, 아래와 같이 요청합니다. <br>
+(= 25.6월까지는 `Ask` 모드에서만 태그가 되었지만, 지금은 둘 다 가능합니다)
 
 ```
 #copilotCodingAgent 자, 이제 새로운 기능을 추가하려고 한다. 현재 워크스페이스의 origin 리모트 저장소에 아래의 기능을 구현하기 위한 PR을 생성해줘.
