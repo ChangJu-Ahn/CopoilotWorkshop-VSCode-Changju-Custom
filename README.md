@@ -67,5 +67,9 @@
 
 ## [Task 7](/Task07/README.md): MCP (Model Context Protocol) 활용 실습
  - VS Code에서 Model Context Protocol 서버를 설정하고, 활용해 봅니다.
-   
+
+## 기타
+2025.11.5월 기준, 아래 AI 모델을 GitHub Copilot 내에서 사용할 수 있습니다. (Premium Request 포함)
+<img width="794" height="930" alt="image" src="https://github.com/user-attachments/assets/1e68d916-b973-472d-b23e-f1a5e4453603" />
+
 
