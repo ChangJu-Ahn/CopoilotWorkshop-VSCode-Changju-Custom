@@ -4,7 +4,7 @@
 - 이 핸즈온 리포는 마이크로소프트 손건 GBB님의 리포를 커스터마이징했습니다.
 - 원본 리포는 [여기](https://github.com/Kor-GHCPWorkshop/CopoilotWorkshop-VSCode-Py-HDA)를 참고하여 주세요.
 - AI 모델 및 기능이 빠르게 업데이트 됨에 따라 화면 및 기능 변경이 있을 수 있습니다.
-- 여기 리포의 기능 및 예시 화면은 2025.11.3을 기준으로 합니다.
+- 여기 리포의 기능 및 예시 화면은 `2025.11.04` 기준입니다.
 
 ## 영상
 - [데모 앱 제작을 AI Agent, 깃헙 코파일럿과 함께! :)](https://www.youtube.com/watch?v=1r3aB01889Y)
